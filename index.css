@@ -1,0 +1,47 @@
+.heading {
+    text-align: center;
+}
+
+.container-calculator {
+    border: 1px solid black;
+    max-width: 440px;
+    margin-left: 410px;
+    background: hsl(187, 25%, 73%);
+
+}
+
+.container-calculation {
+    border: 1px solid black;
+    /* padding: 100px; */
+    width: 430px;
+    height: 30vh;
+    margin: 5px;
+    background: white;
+}
+
+.numbers-container {
+    height: 50vh;
+    min-height: 100%;
+}
+
+#numbers {
+    margin: 8px;
+    padding: 5px;
+}
+
+#numbers td {
+    background: hsl(187, 25%, 73%);
+    /* border: 1px solid black; */
+    max-width: fit-content;
+}
+
+/* #numbers td:hover {
+    background-color: rgb(162, 149, 185);
+} */
+#numbers td input[type=button] {
+    padding: 34px;
+}
+
+/* #numbers td input[type=button]:hover {
+    background-color: rgb(187, 175, 209);
+} */
